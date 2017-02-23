@@ -35,7 +35,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Gj-xq-YpY">
-                                        <rect key="frame" x="0.0" y="1" width="297" height="61"/>
+                                        <rect key="frame" x="-0.85367183121707058" y="1" width="296.99999999999994" height="61"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Arvo" family="Arvo" pointSize="24"/>
                                         <state key="normal" title="Check-In">
@@ -53,7 +53,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BcL-wO-eFI">
-                                        <rect key="frame" x="0.0" y="1" width="297" height="60"/>
+                                        <rect key="frame" x="-0.85367183121707058" y="1" width="296.99999999999994" height="59.999999999999943"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Arvo" family="Arvo" pointSize="24"/>
                                         <state key="normal" title="Find a Table">
@@ -67,7 +67,7 @@
                                 <color key="backgroundColor" white="1" alpha="0.84999999999999998" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gnh-WR-2Zz">
-                                <rect key="frame" x="39" y="60" width="297" height="226"/>
+                                <rect key="frame" x="38.146328168782929" y="60" width="296.99999999999994" height="226.00000000000003"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LibSeat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E1N-wj-Tsb">
@@ -88,10 +88,10 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
-        <!--View Controller-->
+        <!--Check In View Controller-->
         <scene sceneID="jQw-1R-cjh">
             <objects>
-                <viewController id="UqH-hM-xEd" sceneMemberID="viewController">
+                <viewController id="UqH-hM-xEd" customClass="checkInViewController" customModule="LibSeat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NFU-R3-Ubq"/>
                         <viewControllerLayoutGuide type="bottom" id="NwY-5f-kyV"/>
@@ -129,7 +129,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YK7-qO-FGH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="945" y="-102"/>
+            <point key="canvasLocation" x="1023" y="-202"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kgc-vb-ZXz">
@@ -265,7 +265,7 @@
         <image name="pexels-photo-24873" width="3464" height="2309"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="zwp-AH-jmJ"/>
         <segue reference="e9o-Ed-zAs"/>
+        <segue reference="qsr-HM-jAs"/>
     </inferredMetricsTieBreakers>
 </document>

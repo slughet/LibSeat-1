@@ -19,7 +19,6 @@
 		A0A2FFDA1E553B4A00BEE41A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A2FFD81E553B4A00BEE41A /* LaunchScreen.storyboard */; };
 		A0A2FFE51E553B4A00BEE41A /* LibSeatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A2FFE41E553B4A00BEE41A /* LibSeatTests.swift */; };
 		A0A2FFF01E553B4A00BEE41A /* LibSeatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A2FFEF1E553B4A00BEE41A /* LibSeatUITests.swift */; };
-		A0E9BC631E561FEF009C2691 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A0E9BC621E561FEF009C2691 /* README.md */; };
 		A0E9BC691E56426A009C2691 /* Map_web_01-03.png in Resources */ = {isa = PBXBuildFile; fileRef = A0E9BC641E56426A009C2691 /* Map_web_01-03.png */; };
 		A0E9BC6A1E56426A009C2691 /* Map_web_02-03.png in Resources */ = {isa = PBXBuildFile; fileRef = A0E9BC651E56426A009C2691 /* Map_web_02-03.png */; };
 		A0E9BC6B1E56426A009C2691 /* Map_web_03_03.png in Resources */ = {isa = PBXBuildFile; fileRef = A0E9BC661E56426A009C2691 /* Map_web_03_03.png */; };
@@ -45,13 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2923B8411E5E7AC400A154EF /* QRScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
+		2923B8411E5E7AC400A154EF /* QRScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRScannerController.swift; path = LibSeat/QRScannerController.swift; sourceTree = SOURCE_ROOT; };
 		A0A200081E553DBE00BEE41A /* Arvo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arvo-Bold.ttf"; sourceTree = "<group>"; };
 		A0A200091E553DBE00BEE41A /* Arvo-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arvo-BoldItalic.ttf"; sourceTree = "<group>"; };
 		A0A2000A1E553DBE00BEE41A /* Arvo-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arvo-Italic.ttf"; sourceTree = "<group>"; };
 		A0A2000B1E553DBE00BEE41A /* Arvo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arvo-Regular.ttf"; sourceTree = "<group>"; };
 		A0A2FFCC1E553B4A00BEE41A /* LibSeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibSeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0A2FFCF1E553B4A00BEE41A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0A2FFCF1E553B4A00BEE41A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = LibSeat/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		A0A2FFD11E553B4A00BEE41A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A0A2FFD41E553B4A00BEE41A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0A2FFD61E553B4A00BEE41A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,7 +62,6 @@
 		A0A2FFEB1E553B4A00BEE41A /* LibSeatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibSeatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A2FFEF1E553B4A00BEE41A /* LibSeatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibSeatUITests.swift; sourceTree = "<group>"; };
 		A0A2FFF11E553B4A00BEE41A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0E9BC621E561FEF009C2691 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = LibSeat/README.md; sourceTree = "<group>"; };
 		A0E9BC641E56426A009C2691 /* Map_web_01-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Map_web_01-03.png"; sourceTree = "<group>"; };
 		A0E9BC651E56426A009C2691 /* Map_web_02-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Map_web_02-03.png"; sourceTree = "<group>"; };
 		A0E9BC661E56426A009C2691 /* Map_web_03_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map_web_03_03.png; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 				A0A2FFE31E553B4A00BEE41A /* LibSeatTests */,
 				A0A2FFEE1E553B4A00BEE41A /* LibSeatUITests */,
 				A0A2FFCD1E553B4A00BEE41A /* Products */,
-				A0E9BC621E561FEF009C2691 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -234,7 +231,7 @@
 				TargetAttributes = {
 					A0A2FFCB1E553B4A00BEE41A = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = RPHZ3F7M2U;
+						DevelopmentTeam = 24HM6LH6V2;
 						ProvisioningStyle = Automatic;
 					};
 					A0A2FFDF1E553B4A00BEE41A = {
@@ -312,7 +309,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0E9BC631E561FEF009C2691 /* README.md in Sources */,
 				A0A2FFD21E553B4A00BEE41A /* ViewController.swift in Sources */,
 				2923B8421E5E7AC400A154EF /* QRScannerController.swift in Sources */,
 				A0A2FFD01E553B4A00BEE41A /* AppDelegate.swift in Sources */,
@@ -467,12 +463,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RPHZ3F7M2U;
+				DEVELOPMENT_TEAM = 24HM6LH6V2;
 				INFOPLIST_FILE = LibSeat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.BUS498.LibSeat;
+				PRODUCT_BUNDLE_IDENTIFIER = LibSeat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -480,12 +478,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RPHZ3F7M2U;
+				DEVELOPMENT_TEAM = 24HM6LH6V2;
 				INFOPLIST_FILE = LibSeat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.BUS498.LibSeat;
+				PRODUCT_BUNDLE_IDENTIFIER = LibSeat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

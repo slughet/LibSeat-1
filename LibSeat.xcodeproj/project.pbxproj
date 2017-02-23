@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2923B83E1E5E6D9E00A154EF /* checkInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2923B83D1E5E6D9E00A154EF /* checkInViewController.swift */; };
+		2923B8421E5E7AC400A154EF /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2923B8411E5E7AC400A154EF /* QRScannerController.swift */; };
 		A0A2000C1E553DBE00BEE41A /* Arvo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0A200081E553DBE00BEE41A /* Arvo-Bold.ttf */; };
 		A0A2000D1E553DBE00BEE41A /* Arvo-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0A200091E553DBE00BEE41A /* Arvo-BoldItalic.ttf */; };
 		A0A2000E1E553DBE00BEE41A /* Arvo-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0A2000A1E553DBE00BEE41A /* Arvo-Italic.ttf */; };
@@ -45,7 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2923B83D1E5E6D9E00A154EF /* checkInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checkInViewController.swift; sourceTree = "<group>"; };
+		2923B8411E5E7AC400A154EF /* QRScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
 		A0A200081E553DBE00BEE41A /* Arvo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arvo-Bold.ttf"; sourceTree = "<group>"; };
 		A0A200091E553DBE00BEE41A /* Arvo-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arvo-BoldItalic.ttf"; sourceTree = "<group>"; };
 		A0A2000A1E553DBE00BEE41A /* Arvo-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arvo-Italic.ttf"; sourceTree = "<group>"; };
@@ -127,7 +127,7 @@
 				A0A2FFD61E553B4A00BEE41A /* Assets.xcassets */,
 				A0A2FFD81E553B4A00BEE41A /* LaunchScreen.storyboard */,
 				A0A2FFDB1E553B4A00BEE41A /* Info.plist */,
-				2923B83D1E5E6D9E00A154EF /* checkInViewController.swift */,
+				2923B8411E5E7AC400A154EF /* QRScannerController.swift */,
 			);
 			path = LibSeat;
 			sourceTree = "<group>";
@@ -314,7 +314,7 @@
 			files = (
 				A0E9BC631E561FEF009C2691 /* README.md in Sources */,
 				A0A2FFD21E553B4A00BEE41A /* ViewController.swift in Sources */,
-				2923B83E1E5E6D9E00A154EF /* checkInViewController.swift in Sources */,
+				2923B8421E5E7AC400A154EF /* QRScannerController.swift in Sources */,
 				A0A2FFD01E553B4A00BEE41A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -265,7 +265,6 @@
         <image name="pexels-photo-24873" width="3464" height="2309"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="qsr-HM-jAs"/>
         <segue reference="e9o-Ed-zAs"/>
         <segue reference="qsr-HM-jAs"/>
     </inferredMetricsTieBreakers>
